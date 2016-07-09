@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<Vendor id="1" email_id="jtorres0@usatoday.com" name="Zoonder"
+		registration_date="2015-07-05" owner="1" vendor_address="1" />
+	<Vendor id="2" email_id="jevans1@blogger.com" name="Topiczoom"
+		registration_date="2015-07-24" owner="2" vendor_address="2" />
+	<Vendor id="3" email_id="jthompson2@eventbrite.com" name="Photobean"
+		registration_date="2015-12-28" owner="3" vendor_address="3" />
+	<Vendor id="4" email_id="jarmstrong3@japanpost.jp" name="Fivebridge"
+		registration_date="2016-01-16" owner="4" vendor_address="4" />
+	<Vendor id="5" email_id="mtorres4@github.io" name="Janyx"
+		registration_date="2016-05-09" owner="5" vendor_address="5" />
+	<Vendor id="6" email_id="kromero5@shop-pro.jp" name="Edgetag"
+		registration_date="2015-12-24" owner="6" vendor_address="6" />
+	<Vendor id="7" email_id="mmccoy6@vkontakte.ru" name="Tagtune"
+		registration_date="2015-10-23" owner="7" vendor_address="7" />
+	<Vendor id="8" email_id="msanchez7@foxnews.com" name="Viva"
+		registration_date="2016-02-06" owner="8" vendor_address="8" />
+	<Vendor id="9" email_id="rrodriguez8@apple.com" name="Mudo"
+		registration_date="2015-10-10" owner="9" vendor_address="9" />
+	<Vendor id="10" email_id="mlittle9@cyberchimps.com" name="Voomm"
+		registration_date="2015-08-21" owner="10" vendor_address="10" />
+</dataset>

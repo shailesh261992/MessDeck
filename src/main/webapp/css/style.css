@@ -1,0 +1,82 @@
+.date,
+.week .day {
+  width: 14.2%;
+  float: left;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+  padding: 5px;
+}
+.date {
+  height: 108px;
+  text-align: right;
+  margin-top: -1px
+}
+.date .btn {
+  text-align: left;
+  padding-left: 25px
+}
+.selectOption .btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 5px;
+}
+.date .btn {
+  position: relative;
+}
+.date .btn:before {
+  content: "\2714";
+  color: #fff;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 15px;
+}
+.labelOuter [type=checkbox],
+.date .btn {
+  opacity: 0;
+}
+.date:hover .btn {
+  opacity: 0.5
+}
+.labelOuter [type=checkbox]:checked + .btn {
+  opacity: 1
+}
+.date [type=checkbox]:checked + .btn:before {
+  color: #00AFF0
+}
+.labelOuter {
+  position: relative;
+  display: block;
+}
+.labelOuter + .labelOuter {
+    margin-top: 5px;
+}
+.labelOuter input[type=checkbox] {
+  position: absolute;
+  left: 5px;
+  z-index: 1
+}
+.date.disabled {
+  opacity: 0.3
+}
+.Tiffin .btn {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.Lunch .btn {
+	color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.Dinner .btn {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}

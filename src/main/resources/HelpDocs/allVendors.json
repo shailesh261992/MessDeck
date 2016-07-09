@@ -1,0 +1,109 @@
+[
+	{
+		"id": 1,
+		"name": "Sai Mess",
+		"vendorAddress": 
+		{
+			"street": "Talegaon",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 1
+		},
+
+		"links": 
+		[
+			{
+				"rel": "self",
+				"href": "http://localhost/vendors/1"
+			},
+
+			{
+				"rel": "details",
+				"href": "http://localhost/vendors/1/details"
+			}
+		]
+	},
+
+	{
+		"id": 2,
+		"name": "Andhra Mess",
+		"vendorAddress": 
+		{
+			"street": null,
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 2
+		},
+
+		"links": 
+		[
+			{
+				"rel": "self",
+				"href": "http://localhost/vendors/2"
+			},
+
+			{
+				"rel": "details",
+				"href": "http://localhost/vendors/2/details"
+			}
+		]
+	},
+
+	{
+		"id": 3,
+		"name": "Nilu Mess",
+		"vendorAddress": 
+		{
+			"street": "Station Chowk",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410509",
+			"id": 3
+		},
+
+		"links": 
+		[
+			{
+				"rel": "self",
+				"href": "http://localhost/vendors/3"
+			},
+
+			{
+				"rel": "details",
+				"href": "http://localhost/vendors/3/details"
+			}
+		]
+	},
+
+	{
+		"id": 4,
+		"name": "Arya mess",
+		"vendorAddress": 
+		{
+			"street": null,
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 4
+		},
+
+		"links": 
+		[
+			{
+				"rel": "self",
+				"href": "http://localhost/vendors/4"
+			},
+
+			{
+				"rel": "details",
+				"href": "http://localhost/vendors/4/details"
+			}
+		]
+	}
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<owner_address />
+	<Owner />
+	<vendor_address />
+	<Vendor />
+	<customer_address />
+	<customer />
+	<mess_deck_service_info />
+	<item />
+	<service_meal />
+	<customer_service />
+</dataset>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<customer_address id="1" city="pune" country="India"
+		pin_code="191106" state="Maharashtra" street="65231 Londonderry Point" />
+	<customer_address id="2" city="pune" country="India"
+		pin_code="919036" state="Maharashtra" street="67 Russell Street" />
+	<customer_address id="3" city="pune" country="India"
+		pin_code="106897" state="Maharashtra" street="11 Dakota Park" />
+	<customer_address id="4" city="pune" country="India"
+		pin_code="943764" state="Maharashtra" street="65 School Pass" />
+	<customer_address id="5" city="pune" country="India"
+		pin_code="109461" state="Maharashtra" street="59716 Westport Lane" />
+	<customer_address id="6" city="pune" country="India"
+		pin_code="142499" state="Maharashtra" street="09810 Gerald Road" />
+	<customer_address id="7" city="pune" country="India"
+		pin_code="174700" state="Maharashtra" street="553 Shopko Place" />
+	<customer_address id="8" city="pune" country="India"
+		pin_code="904101" state="Maharashtra" street="08187 Bunting Point" />
+	<customer_address id="9" city="pune" country="India"
+		pin_code="935489" state="Maharashtra" street="3958 Mayfield Park" />
+	<customer_address id="10" city="pune" country="India"
+		pin_code="983942" state="Maharashtra" street="32 Utah Avenue" />
+	<customer_address id="11" city="pune" country="India"
+		pin_code="912468" state="Maharashtra" street="8637 Elka Terrace" />
+	<customer_address id="12" city="pune" country="India"
+		pin_code="904205" state="Maharashtra" street="7 4th Pass" />
+	<customer_address id="13" city="pune" country="India"
+		pin_code="914831" state="Maharashtra" street="499 Portage Center" />
+	<customer_address id="14" city="pune" country="India"
+		pin_code="908519" state="Maharashtra" street="2455 Macpherson Court" />
+	<customer_address id="15" city="pune" country="India"
+		pin_code="191448" state="Maharashtra" street="4808 Hanson Alley" />
+	<customer_address id="16" city="pune" country="India"
+		pin_code="191942" state="Maharashtra" street="8 Anthes Way" />
+	<customer_address id="17" city="pune" country="India"
+		pin_code="105847" state="Maharashtra" street="65039 Shopko Hill" />
+	<customer_address id="18" city="pune" country="India"
+		pin_code="944192" state="Maharashtra" street="35925 Coolidge Alley" />
+	<customer_address id="19" city="pune" country="India"
+		pin_code="101055" state="Maharashtra" street="416 Truax Pass" />
+	<customer_address id="20" city="pune" country="India"
+		pin_code="957090" state="Maharashtra" street="59 Village Green Terrace" />
+	<customer_address id="21" city="pune" country="India"
+		pin_code="969297" state="Maharashtra" street="5 Mcguire Court" />
+	<customer_address id="22" city="pune" country="India"
+		pin_code="993115" state="Maharashtra" street="49 Basil Trail" />
+	<customer_address id="23" city="pune" country="India"
+		pin_code="936775" state="Maharashtra" street="389 Arapahoe Alley" />
+	<customer_address id="24" city="pune" country="India"
+		pin_code="150368" state="Maharashtra" street="87 Talisman Street" />
+	<customer_address id="25" city="pune" country="India"
+		pin_code="105316" state="Maharashtra" street="24471 Melvin Center" />
+	<customer_address id="26" city="pune" country="India"
+		pin_code="195277" state="Maharashtra" street="4040 Schurz Trail" />
+	<customer_address id="27" city="pune" country="India"
+		pin_code="108619" state="Maharashtra" street="61 Gateway Crossing" />
+	<customer_address id="28" city="pune" country="India"
+		pin_code="153944" state="Maharashtra" street="94 Arrowood Avenue" />
+	<customer_address id="29" city="pune" country="India"
+		pin_code="174983" state="Maharashtra" street="091 Twin Pines Crossing" />
+	<customer_address id="30" city="pune" country="India"
+		pin_code="975185" state="Maharashtra" street="32 Merchant Circle" />
+	<customer_address id="31" city="pune" country="India"
+		pin_code="953014" state="Maharashtra" street="139 Redwing Court" />
+	<customer_address id="32" city="pune" country="India"
+		pin_code="973233" state="Maharashtra" street="9 Magdeline Street" />
+	<customer_address id="33" city="pune" country="India"
+		pin_code="168856" state="Maharashtra" street="7550 Darwin Park" />
+	<customer_address id="34" city="pune" country="India"
+		pin_code="943191" state="Maharashtra" street="7 Hooker Road" />
+	<customer_address id="35" city="pune" country="India"
+		pin_code="981056" state="Maharashtra" street="27 Helena Terrace" />
+	<customer_address id="36" city="pune" country="India"
+		pin_code="903137" state="Maharashtra" street="6 Meadow Ridge Hill" />
+	<customer_address id="37" city="pune" country="India"
+		pin_code="193301" state="Maharashtra" street="0 Butternut Plaza" />
+	<customer_address id="38" city="pune" country="India"
+		pin_code="966325" state="Maharashtra" street="832 Mariners Cove Park" />
+	<customer_address id="39" city="pune" country="India"
+		pin_code="963686" state="Maharashtra" street="54280 Mockingbird Road" />
+	<customer_address id="40" city="pune" country="India"
+		pin_code="921836" state="Maharashtra" street="79 Rigney Park" />
+	<customer_address id="41" city="pune" country="India"
+		pin_code="166087" state="Maharashtra" street="90 6th Park" />
+	<customer_address id="42" city="pune" country="India"
+		pin_code="963222" state="Maharashtra" street="87207 Boyd Parkway" />
+	<customer_address id="43" city="pune" country="India"
+		pin_code="956002" state="Maharashtra" street="70708 Dixon Lane" />
+	<customer_address id="44" city="pune" country="India"
+		pin_code="987136" state="Maharashtra" street="2 East Hill" />
+	<customer_address id="45" city="pune" country="India"
+		pin_code="109632" state="Maharashtra" street="84089 Pankratz Lane" />
+	<customer_address id="46" city="pune" country="India"
+		pin_code="936729" state="Maharashtra" street="1 Kedzie Pass" />
+	<customer_address id="47" city="pune" country="India"
+		pin_code="912743" state="Maharashtra" street="82 Park Meadow Park" />
+	<customer_address id="48" city="pune" country="India"
+		pin_code="998434" state="Maharashtra" street="455 Arapahoe Trail" />
+	<customer_address id="49" city="pune" country="India"
+		pin_code="131506" state="Maharashtra" street="01 Sauthoff Plaza" />
+	<customer_address id="50" city="pune" country="India"
+		pin_code="926766" state="Maharashtra" street="2 Nova Plaza" />
+	<customer_address id="51" city="pune" country="India"
+		pin_code="102364" state="Maharashtra" street="9812 Arkansas Lane" />
+	<customer_address id="52" city="pune" country="India"
+		pin_code="955988" state="Maharashtra" street="01752 Doe Crossing Plaza" />
+	<customer_address id="53" city="pune" country="India"
+		pin_code="152954" state="Maharashtra" street="62213 Ridge Oak Plaza" />
+	<customer_address id="54" city="pune" country="India"
+		pin_code="186347" state="Maharashtra" street="37025 Oakridge Park" />
+	<customer_address id="55" city="pune" country="India"
+		pin_code="107966" state="Maharashtra" street="421 Gina Hill" />
+	<customer_address id="56" city="pune" country="India"
+		pin_code="178044" state="Maharashtra" street="3 Havey Plaza" />
+	<customer_address id="57" city="pune" country="India"
+		pin_code="187164" state="Maharashtra" street="90745 Haas Avenue" />
+	<customer_address id="58" city="pune" country="India"
+		pin_code="152788" state="Maharashtra" street="71299 Forest Center" />
+	<customer_address id="59" city="pune" country="India"
+		pin_code="114986" state="Maharashtra" street="4 Thierer Alley" />
+	<customer_address id="60" city="pune" country="India"
+		pin_code="922190" state="Maharashtra" street="3974 Riverside Place" />
+	<customer_address id="61" city="pune" country="India"
+		pin_code="965700" state="Maharashtra" street="83 Tennessee Point" />
+	<customer_address id="62" city="pune" country="India"
+		pin_code="157476" state="Maharashtra" street="27693 Mayfield Road" />
+	<customer_address id="63" city="pune" country="India"
+		pin_code="155648" state="Maharashtra" street="04765 Dottie Plaza" />
+	<customer_address id="64" city="pune" country="India"
+		pin_code="175359" state="Maharashtra" street="9 Butterfield Circle" />
+	<customer_address id="65" city="pune" country="India"
+		pin_code="147071" state="Maharashtra" street="463 Bultman Hill" />
+	<customer_address id="66" city="pune" country="India"
+		pin_code="148558" state="Maharashtra" street="5 Northfield Crossing" />
+	<customer_address id="67" city="pune" country="India"
+		pin_code="181071" state="Maharashtra" street="9 Old Shore Place" />
+	<customer_address id="68" city="pune" country="India"
+		pin_code="122991" state="Maharashtra" street="76937 Kenwood Parkway" />
+	<customer_address id="69" city="pune" country="India"
+		pin_code="920531" state="Maharashtra" street="555 Mallory Terrace" />
+	<customer_address id="70" city="pune" country="India"
+		pin_code="971836" state="Maharashtra" street="916 Di Loreto Way" />
+	<customer_address id="71" city="pune" country="India"
+		pin_code="993218" state="Maharashtra" street="85 Grover Point" />
+	<customer_address id="72" city="pune" country="India"
+		pin_code="981391" state="Maharashtra" street="2892 Lukken Road" />
+	<customer_address id="73" city="pune" country="India"
+		pin_code="189700" state="Maharashtra" street="616 Bultman Point" />
+	<customer_address id="74" city="pune" country="India"
+		pin_code="935275" state="Maharashtra" street="0675 Burning Wood Circle" />
+	<customer_address id="75" city="pune" country="India"
+		pin_code="148488" state="Maharashtra" street="9 Nova Way" />
+	<customer_address id="76" city="pune" country="India"
+		pin_code="167520" state="Maharashtra" street="84 Northport Center" />
+	<customer_address id="77" city="pune" country="India"
+		pin_code="125295" state="Maharashtra" street="3 Maple Wood Road" />
+	<customer_address id="78" city="pune" country="India"
+		pin_code="104476" state="Maharashtra" street="2 Truax Lane" />
+	<customer_address id="79" city="pune" country="India"
+		pin_code="965075" state="Maharashtra" street="67506 Reinke Plaza" />
+	<customer_address id="80" city="pune" country="India"
+		pin_code="139263" state="Maharashtra" street="75 Elmside Lane" />
+	<customer_address id="81" city="pune" country="India"
+		pin_code="924286" state="Maharashtra" street="676 Northwestern Point" />
+	<customer_address id="82" city="pune" country="India"
+		pin_code="978848" state="Maharashtra" street="1 Sutteridge Lane" />
+	<customer_address id="83" city="pune" country="India"
+		pin_code="166330" state="Maharashtra" street="650 Farmco Point" />
+	<customer_address id="84" city="pune" country="India"
+		pin_code="905121" state="Maharashtra" street="3345 Cascade Crossing" />
+	<customer_address id="85" city="pune" country="India"
+		pin_code="968144" state="Maharashtra" street="7 Graedel Trail" />
+	<customer_address id="86" city="pune" country="India"
+		pin_code="141329" state="Maharashtra" street="10 Golf Lane" />
+	<customer_address id="87" city="pune" country="India"
+		pin_code="967068" state="Maharashtra" street="57 Merchant Plaza" />
+	<customer_address id="88" city="pune" country="India"
+		pin_code="150233" state="Maharashtra" street="4 Hallows Center" />
+	<customer_address id="89" city="pune" country="India"
+		pin_code="944052" state="Maharashtra" street="25 Leroy Way" />
+	<customer_address id="90" city="pune" country="India"
+		pin_code="911709" state="Maharashtra" street="082 Bultman Terrace" />
+	<customer_address id="91" city="pune" country="India"
+		pin_code="995186" state="Maharashtra" street="53 Garrison Point" />
+	<customer_address id="92" city="pune" country="India"
+		pin_code="910921" state="Maharashtra" street="3985 Bowman Crossing" />
+	<customer_address id="93" city="pune" country="India"
+		pin_code="955333" state="Maharashtra" street="720 John Wall Way" />
+	<customer_address id="94" city="pune" country="India"
+		pin_code="956858" state="Maharashtra" street="4699 Sugar Trail" />
+	<customer_address id="95" city="pune" country="India"
+		pin_code="127846" state="Maharashtra" street="88 Lyons Road" />
+	<customer_address id="96" city="pune" country="India"
+		pin_code="159248" state="Maharashtra" street="078 Meadow Vale Parkway" />
+	<customer_address id="97" city="pune" country="India"
+		pin_code="102859" state="Maharashtra" street="775 School Road" />
+	<customer_address id="98" city="pune" country="India"
+		pin_code="165959" state="Maharashtra" street="7 Green Pass" />
+	<customer_address id="99" city="pune" country="India"
+		pin_code="939712" state="Maharashtra" street="6 Lien Plaza" />
+	<customer_address id="100" city="pune" country="India"
+		pin_code="176107" state="Maharashtra" street="0173 Tennessee Parkway" />
+</dataset>

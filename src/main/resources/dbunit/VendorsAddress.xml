@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<vendor_address id="1" city="pune" country="India"
+		pin_code="948862" state="Maharashtra" street="1145 Tennyson Court" />
+	<vendor_address id="2" city="pune" country="India"
+		pin_code="136561" state="Maharashtra" street="8418 La Follette Way" />
+	<vendor_address id="3" city="pune" country="India"
+		pin_code="169253" state="Maharashtra" street="945 Lighthouse Bay Circle" />
+	<vendor_address id="4" city="pune" country="India"
+		pin_code="165222" state="Maharashtra" street="6892 Sage Street" />
+	<vendor_address id="5" city="pune" country="India"
+		pin_code="960210" state="Maharashtra" street="4442 Summit Point" />
+	<vendor_address id="6" city="pune" country="India"
+		pin_code="901442" state="Maharashtra" street="029 Goodland Point" />
+	<vendor_address id="7" city="pune" country="India"
+		pin_code="147294" state="Maharashtra" street="51 Morning Parkway" />
+	<vendor_address id="8" city="pune" country="India"
+		pin_code="134229" state="Maharashtra" street="72 Morning Road" />
+	<vendor_address id="9" city="pune" country="India"
+		pin_code="963166" state="Maharashtra" street="7 Carey Junction" />
+	<vendor_address id="10" city="pune" country="India"
+		pin_code="137220" state="Maharashtra" street="40785 Butternut Street" />
+</dataset>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<!-- Owners Address Data -->
+	<owner_address id="1" city="pune" country="India"
+		pin_code="410507" state="Maharashtra" street="Talegaon" />
+	<owner_address id="2" city="pune" country="India"
+		pin_code="410508" state="Maharashtra" street="Shivaji Chowk" />
+	<owner_address id="3" city="pune" country="India"
+		pin_code="410509" state="Maharashtra" street="Station Chowk" />
+
+
+
+	<!-- Owners Data -->
+
+	<Owner id="1" first_name="Sai" last_name="Prasad" email_id="sai@gmail.com"
+		gender="1" mobile_no="7276248187" owner_address="1" />
+	<Owner id="2" first_name="Zee" last_name="Khan" email_id="andhra@gmail.com"
+		gender="1" mobile_no="9876543210" owner_address="2" />
+	<Owner id="3" first_name="Nilu" last_name="Puranik" email_id="Nilu@gmail.com"
+		gender="1" mobile_no="7624563456" owner_address="3" />
+
+	<!-- Vendor Address Data -->
+	<vendor_address id="1" city="pune" country="India"
+		pin_code="410507" state="Maharashtra" street="Talegaon" />
+	<vendor_address id="2" city="pune" country="India"
+		pin_code="410508" state="Maharashtra" street="Shivaji Chowk" />
+	<vendor_address id="3" city="pune" country="India"
+		pin_code="410509" state="Maharashtra" street="Station Chowk" />
+
+	<!-- Vendor Data -->
+	<Vendor id="1" email_id="sai@gmail.com" name="Sai Mess"
+		registration_date="2015-07-05" owner="1" vendor_address="1" />
+	<Vendor id="2" email_id="Sonu@gmail.com" name="Sonu Mess"
+		registration_date="2015-07-24" owner="2" vendor_address="2" />
+	<Vendor id="3" email_id="Nilu@gmail.com" name="Nilu Mess"
+		registration_date="2015-12-28" owner="3" vendor_address="3" />
+
+	<!-- Customer Address -->
+
+	<customer_address id="1" city="pune" country="India"
+		pin_code="410507" state="Maharashtra" street="Talegaon street 1" />
+	<customer_address id="2" city="pune" country="India"
+		pin_code="410507" state="Maharashtra" street="Talegaon street 2" />
+	<customer_address id="3" city="pune" country="India"
+		pin_code="410507" state="Maharashtra" street="Talegaon street 3" />
+
+	<!-- Customer -->
+	<Customer id="1" first_name="Ganesh" last_name="Kadam"
+		email_id="ganesh@gmail.com" gender="1" mobile_no="7770092161" vendor="1"
+		customer_address="1" />
+	<Customer id="2" first_name="Harshad" last_name="Thorat"
+		email_id="harshad@gmail.com" gender="1" mobile_no="7779999999" vendor="1"
+		customer_address="2" />
+	<Customer id="3" first_name="Rohit" last_name="Navadkar"
+		email_id="Rohit@gmail.com" gender="1" mobile_no="7878787878" vendor="1"
+		customer_address="3" />
+
+
+
+
+</dataset>

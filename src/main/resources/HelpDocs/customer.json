@@ -1,0 +1,40 @@
+{
+	"name": 
+	{
+		"firstName": "Ganesh",
+		"lastName": "Kadam"
+	},
+
+	"mobileNo": "7770092161",
+	"emailID": 
+	{
+		"emailId": "ganesh@gmail.com"
+	},
+
+	"gender": "FEMALE",
+	"id": 1,
+	"customerAddress": 
+	{
+		"street": "Talegaon street 1",
+		"city": "pune",
+		"state": "Maharashtra",
+		"country": "India",
+		"pinCode": "410507",
+		"id": 1
+	},
+
+	"vendor": 
+	{
+		"id": 1,
+		"name": "Sai Mess",
+		"vendorAddress": 
+		{
+			"street": "Talegaon",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 1
+		}
+	}
+}

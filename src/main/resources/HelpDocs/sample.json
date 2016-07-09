@@ -1,0 +1,121 @@
+[
+	{
+		"name": 
+		{
+			"firstName": "Ganesh",
+			"lastName": "Kadam"
+		},
+
+		"mobileNo": "7770092161",
+		"emailID": 
+		{
+			"emailId": "ganesh@gmail.com"
+		},
+
+		"gender": "FEMALE",
+		"customerAddress": 
+		{
+			"street": "Talegaon street 1",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 1
+		},
+
+		"vendor": 
+		{
+			"id": 1,
+			"name": "Sai Mess",
+			"vendorAddress": 
+			{
+				"street": "Talegaon",
+				"city": "pune",
+				"state": "Maharashtra",
+				"country": "India",
+				"pinCode": "410507",
+				"id": 1
+			}
+		}
+	},
+
+	{
+		"name": 
+		{
+			"firstName": "Harshad",
+			"lastName": "Thorat"
+		},
+
+		"mobileNo": "7779999999",
+		"emailID": 
+		{
+			"emailId": "harshad@gmail.com"
+		},
+
+		"gender": "FEMALE",
+		"customerAddress": 
+		{
+			"street": "Talegaon street 2",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 2
+		},
+
+		"vendor": 
+		{
+			"id": 1,
+			"name": "Sai Mess",
+			"vendorAddress": 
+			{
+				"street": "Talegaon",
+				"city": "pune",
+				"state": "Maharashtra",
+				"country": "India",
+				"pinCode": "410507",
+				"id": 1
+			}
+		}
+	},
+
+	{
+		"name": 
+		{
+			"firstName": "Rohit",
+			"lastName": "Navadkar"
+		},
+
+		"mobileNo": "7878787878",
+		"emailID": 
+		{
+			"emailId": "Rohit@gmail.com"
+		},
+
+		"gender": "FEMALE",
+		"customerAddress": 
+		{
+			"street": "Talegaon street 3",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 3
+		},
+
+		"vendor": 
+		{
+			"id": 1,
+			"name": "Sai Mess",
+			"vendorAddress": 
+			{
+				"street": "Talegaon",
+				"city": "pune",
+				"state": "Maharashtra",
+				"country": "India",
+				"pinCode": "410507",
+				"id": 1
+			}
+		}
+	}
+]

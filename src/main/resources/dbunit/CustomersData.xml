@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<Customer id="1" first_name="Angela" last_name="Miller"
+		email_id="amiller0@cisco.com" gender="0" mobile_no="9743313055"
+		vendor="9" customer_address="1" />
+	<Customer id="2" first_name="Carlos" last_name="Reed"
+		email_id="creed1@mysql.com" gender="0" mobile_no="7488231262" vendor="10"
+		customer_address="2" />
+	<Customer id="3" first_name="Wayne" last_name="Gonzales"
+		email_id="wgonzales2@berkeley.edu" gender="0" mobile_no="7294795273"
+		vendor="10" customer_address="3" />
+	<Customer id="4" first_name="Jonathan" last_name="Ward"
+		email_id="jward3@bloomberg.com" gender="0" mobile_no="9629258690"
+		vendor="9" customer_address="4" />
+	<Customer id="5" first_name="Lois" last_name="Greene"
+		email_id="lgreene4@google.co.uk" gender="1" mobile_no="8833622185"
+		vendor="10" customer_address="5" />
+	<Customer id="6" first_name="Marie" last_name="Edwards"
+		email_id="medwards5@oracle.com" gender="1" mobile_no="8252339512"
+		vendor="10" customer_address="6" />
+	<Customer id="7" first_name="Paul" last_name="Robertson"
+		email_id="probertson6@edublogs.org" gender="1" mobile_no="7267487413"
+		vendor="10" customer_address="7" />
+	<Customer id="8" first_name="Scott" last_name="Mendoza"
+		email_id="smendoza7@weebly.com" gender="1" mobile_no="7021009667"
+		vendor="9" customer_address="8" />
+	<Customer id="9" first_name="Joan" last_name="Johnston"
+		email_id="jjohnston8@linkedin.com" gender="0" mobile_no="9645072139"
+		vendor="8" customer_address="9" />
+	<Customer id="10" first_name="Ralph" last_name="Tucker"
+		email_id="rtucker9@theatlantic.com" gender="1" mobile_no="9012125118"
+		vendor="8" customer_address="10" />
+	<Customer id="11" first_name="Nicole" last_name="Burke"
+		email_id="nburkea@narod.ru" gender="1" mobile_no="9480023305" vendor="8"
+		customer_address="11" />
+	<Customer id="12" first_name="Brandon" last_name="Martin"
+		email_id="bmartinb@google.cn" gender="1" mobile_no="8208024379"
+		vendor="7" customer_address="12" />
+	<Customer id="13" first_name="Michelle" last_name="Ruiz"
+		email_id="mruizc@chron.com" gender="1" mobile_no="9698966122" vendor="10"
+		customer_address="13" />
+	<Customer id="14" first_name="Tina" last_name="Bailey"
+		email_id="tbaileyd@cargocollective.com" gender="1" mobile_no="7864712092"
+		vendor="8" customer_address="14" />
+	<Customer id="15" first_name="Fred" last_name="Hart" email_id="fharte@unc.edu"
+		gender="0" mobile_no="8041171558" vendor="9" customer_address="15" />
+	<Customer id="16" first_name="George" last_name="Walker"
+		email_id="gwalkerf@1und1.de" gender="0" mobile_no="9630026107" vendor="7"
+		customer_address="16" />
+	<Customer id="17" first_name="Craig" last_name="Carpenter"
+		email_id="ccarpenterg@ow.ly" gender="1" mobile_no="7515940277" vendor="7"
+		customer_address="17" />
+	<Customer id="18" first_name="Amy" last_name="Hamilton"
+		email_id="ahamiltonh@wisc.edu" gender="1" mobile_no="7513362761"
+		vendor="10" customer_address="18" />
+	<Customer id="19" first_name="Lois" last_name="Crawford"
+		email_id="lcrawfordi@diigo.com" gender="0" mobile_no="9235795878"
+		vendor="10" customer_address="19" />
+	<Customer id="20" first_name="Robin" last_name="Fox"
+		email_id="rfoxj@naver.com" gender="1" mobile_no="8092595021" vendor="9"
+		customer_address="20" />
+	<Customer id="21" first_name="Tina" last_name="Parker"
+		email_id="tparkerk@weibo.com" gender="1" mobile_no="9819267793"
+		vendor="9" customer_address="21" />
+	<Customer id="22" first_name="Adam" last_name="Price"
+		email_id="apricel@myspace.com" gender="1" mobile_no="8194651044"
+		vendor="10" customer_address="22" />
+	<Customer id="23" first_name="Raymond" last_name="Thomas"
+		email_id="rthomasm@privacy.gov.au" gender="1" mobile_no="8521666714"
+		vendor="10" customer_address="23" />
+	<Customer id="24" first_name="Mark" last_name="Cunningham"
+		email_id="mcunninghamn@cbslocal.com" gender="1" mobile_no="9433424128"
+		vendor="7" customer_address="24" />
+	<Customer id="25" first_name="Scott" last_name="Rice"
+		email_id="sriceo@comcast.net" gender="0" mobile_no="9597615416"
+		vendor="9" customer_address="25" />
+	<Customer id="26" first_name="Carolyn" last_name="Bowman"
+		email_id="cbowmanp@istockphoto.com" gender="1" mobile_no="9554516015"
+		vendor="9" customer_address="26" />
+	<Customer id="27" first_name="Nicole" last_name="Olson"
+		email_id="nolsonq@mlb.com" gender="1" mobile_no="8055763722" vendor="10"
+		customer_address="27" />
+	<Customer id="28" first_name="Daniel" last_name="George"
+		email_id="dgeorger@craigslist.org" gender="0" mobile_no="9605877466"
+		vendor="10" customer_address="28" />
+	<Customer id="29" first_name="Brian" last_name="Harper"
+		email_id="bharpers@jalbum.net" gender="0" mobile_no="7996975085"
+		vendor="10" customer_address="29" />
+	<Customer id="30" first_name="Sandra" last_name="Elliott"
+		email_id="selliottt@purevolume.com" gender="1" mobile_no="7551118688"
+		vendor="10" customer_address="30" />
+	<Customer id="31" first_name="Sara" last_name="Bishop"
+		email_id="sbishopu@mit.edu" gender="0" mobile_no="9456499326" vendor="10"
+		customer_address="31" />
+	<Customer id="32" first_name="Maria" last_name="Allen"
+		email_id="mallenv@amazonaws.com" gender="0" mobile_no="7489329446"
+		vendor="10" customer_address="32" />
+	<Customer id="33" first_name="Helen" last_name="Reid"
+		email_id="hreidw@wired.com" gender="1" mobile_no="9878291320" vendor="9"
+		customer_address="33" />
+	<Customer id="34" first_name="Carolyn" last_name="Dunn"
+		email_id="cdunnx@parallels.com" gender="0" mobile_no="9335763268"
+		vendor="8" customer_address="34" />
+	<Customer id="35" first_name="Marilyn" last_name="Day"
+		email_id="mdayy@ezinearticles.com" gender="0" mobile_no="9005134140"
+		vendor="10" customer_address="35" />
+	<Customer id="36" first_name="Kelly" last_name="Hicks"
+		email_id="khicksz@nature.com" gender="0" mobile_no="9707652532"
+		vendor="10" customer_address="36" />
+	<Customer id="37" first_name="Theresa" last_name="Bryant"
+		email_id="tbryant10@dedecms.com" gender="1" mobile_no="9466746726"
+		vendor="10" customer_address="37" />
+	<Customer id="38" first_name="Willie" last_name="Ford"
+		email_id="wford11@shop-pro.jp" gender="0" mobile_no="8493357933"
+		vendor="10" customer_address="38" />
+	<Customer id="39" first_name="Billy" last_name="Perez"
+		email_id="bperez12@springer.com" gender="0" mobile_no="9119938627"
+		vendor="9" customer_address="39" />
+	<Customer id="40" first_name="Kelly" last_name="Anderson"
+		email_id="kanderson13@businessweek.com" gender="1" mobile_no="7165677929"
+		vendor="10" customer_address="40" />
+	<Customer id="41" first_name="William" last_name="Smith"
+		email_id="wsmith14@51.la" gender="1" mobile_no="9923674117" vendor="10"
+		customer_address="41" />
+	<Customer id="42" first_name="Benjamin" last_name="Pierce"
+		email_id="bpierce15@uol.com.br" gender="0" mobile_no="7702569323"
+		vendor="9" customer_address="42" />
+	<Customer id="43" first_name="Arthur" last_name="Brown"
+		email_id="abrown16@uiuc.edu" gender="1" mobile_no="9524702954" vendor="10"
+		customer_address="43" />
+	<Customer id="44" first_name="Benjamin" last_name="Long"
+		email_id="blong17@youtube.com" gender="0" mobile_no="7516028373"
+		vendor="7" customer_address="44" />
+	<Customer id="45" first_name="Helen" last_name="Rogers"
+		email_id="hrogers18@paypal.com" gender="1" mobile_no="7827414619"
+		vendor="10" customer_address="45" />
+	<Customer id="46" first_name="Jesse" last_name="Lynch"
+		email_id="jlynch19@tinypic.com" gender="1" mobile_no="9378783673"
+		vendor="9" customer_address="46" />
+	<Customer id="47" first_name="Marilyn" last_name="Howell"
+		email_id="mhowell1a@newyorker.com" gender="1" mobile_no="8162156634"
+		vendor="8" customer_address="47" />
+	<Customer id="48" first_name="Tina" last_name="Riley"
+		email_id="triley1b@ucsd.edu" gender="0" mobile_no="9902971205" vendor="10"
+		customer_address="48" />
+	<Customer id="49" first_name="Phyllis" last_name="Kennedy"
+		email_id="pkennedy1c@quantcast.com" gender="0" mobile_no="8025206488"
+		vendor="7" customer_address="49" />
+	<Customer id="50" first_name="Russell" last_name="Daniels"
+		email_id="rdaniels1d@usatoday.com" gender="1" mobile_no="9901147507"
+		vendor="10" customer_address="50" />
+	<Customer id="51" first_name="Aaron" last_name="Long"
+		email_id="along1e@last.fm" gender="1" mobile_no="9724599959" vendor="10"
+		customer_address="51" />
+	<Customer id="52" first_name="Ashley" last_name="Griffin"
+		email_id="agriffin1f@dedecms.com" gender="0" mobile_no="9504733000"
+		vendor="8" customer_address="52" />
+	<Customer id="53" first_name="Diane" last_name="Alexander"
+		email_id="dalexander1g@creativecommons.org" gender="0" mobile_no="7318697159"
+		vendor="10" customer_address="53" />
+	<Customer id="54" first_name="Anthony" last_name="Vasquez"
+		email_id="avasquez1h@feedburner.com" gender="1" mobile_no="7821665730"
+		vendor="8" customer_address="54" />
+	<Customer id="55" first_name="Jonathan" last_name="Miller"
+		email_id="jmiller1i@photobucket.com" gender="0" mobile_no="9681974527"
+		vendor="4" customer_address="55" />
+	<Customer id="56" first_name="Christine" last_name="Fox"
+		email_id="cfox1j@techcrunch.com" gender="0" mobile_no="9910875109"
+		vendor="10" customer_address="56" />
+	<Customer id="57" first_name="Wanda" last_name="Parker"
+		email_id="wparker1k@phpbb.com" gender="0" mobile_no="8254775511"
+		vendor="10" customer_address="57" />
+	<Customer id="58" first_name="Gerald" last_name="Hamilton"
+		email_id="ghamilton1l@google.cn" gender="0" mobile_no="8139424002"
+		vendor="6" customer_address="58" />
+	<Customer id="59" first_name="Mildred" last_name="Green"
+		email_id="mgreen1m@ucoz.com" gender="0" mobile_no="9197122946" vendor="7"
+		customer_address="59" />
+	<Customer id="60" first_name="Howard" last_name="Johnson"
+		email_id="hjohnson1n@umich.edu" gender="1" mobile_no="9740420052"
+		vendor="10" customer_address="60" />
+	<Customer id="61" first_name="Lawrence" last_name="Palmer"
+		email_id="lpalmer1o@tumblr.com" gender="1" mobile_no="9667434770"
+		vendor="10" customer_address="61" />
+	<Customer id="62" first_name="Marilyn" last_name="Henderson"
+		email_id="mhenderson1p@time.com" gender="1" mobile_no="7179007892"
+		vendor="10" customer_address="62" />
+	<Customer id="63" first_name="Andrea" last_name="Young"
+		email_id="ayoung1q@rediff.com" gender="0" mobile_no="7983673059"
+		vendor="10" customer_address="63" />
+	<Customer id="64" first_name="Mark" last_name="Ward"
+		email_id="mward1r@aboutads.info" gender="0" mobile_no="9759878159"
+		vendor="9" customer_address="64" />
+	<Customer id="65" first_name="Phillip" last_name="Garcia"
+		email_id="pgarcia1s@imgur.com" gender="0" mobile_no="9859248437"
+		vendor="10" customer_address="65" />
+	<Customer id="66" first_name="Annie" last_name="Armstrong"
+		email_id="aarmstrong1t@oaic.gov.au" gender="0" mobile_no="9917272206"
+		vendor="10" customer_address="66" />
+	<Customer id="67" first_name="Marie" last_name="Walker"
+		email_id="mwalker1u@rambler.ru" gender="0" mobile_no="8855800028"
+		vendor="8" customer_address="67" />
+	<Customer id="68" first_name="Tammy" last_name="Mendoza"
+		email_id="tmendoza1v@constantcontact.com" gender="1" mobile_no="9564443755"
+		vendor="9" customer_address="68" />
+	<Customer id="69" first_name="Laura" last_name="Parker"
+		email_id="lparker1w@tamu.edu" gender="1" mobile_no="8780756942"
+		vendor="10" customer_address="69" />
+	<Customer id="70" first_name="Catherine" last_name="Castillo"
+		email_id="ccastillo1x@studiopress.com" gender="0" mobile_no="9235575708"
+		vendor="10" customer_address="70" />
+	<Customer id="71" first_name="Norma" last_name="Brooks"
+		email_id="nbrooks1y@auda.org.au" gender="1" mobile_no="9669460763"
+		vendor="9" customer_address="71" />
+	<Customer id="72" first_name="Jessica" last_name="Anderson"
+		email_id="janderson1z@accuweather.com" gender="0" mobile_no="9562916506"
+		vendor="9" customer_address="72" />
+	<Customer id="73" first_name="Helen" last_name="Moore"
+		email_id="hmoore20@myspace.com" gender="0" mobile_no="9267452839"
+		vendor="10" customer_address="73" />
+	<Customer id="74" first_name="Craig" last_name="Oliver"
+		email_id="coliver21@dagondesign.com" gender="0" mobile_no="8977819005"
+		vendor="7" customer_address="74" />
+	<Customer id="75" first_name="Jeffrey" last_name="Day"
+		email_id="jday22@surveymonkey.com" gender="0" mobile_no="9023645531"
+		vendor="10" customer_address="75" />
+	<Customer id="76" first_name="Jack" last_name="Marshall"
+		email_id="jmarshall23@ca.gov" gender="1" mobile_no="8328014037"
+		vendor="9" customer_address="76" />
+	<Customer id="77" first_name="Timothy" last_name="Martin"
+		email_id="tmartin24@prweb.com" gender="0" mobile_no="9988563768"
+		vendor="9" customer_address="77" />
+	<Customer id="78" first_name="Scott" last_name="Armstrong"
+		email_id="sarmstrong25@dagondesign.com" gender="0" mobile_no="8163592786"
+		vendor="10" customer_address="78" />
+	<Customer id="79" first_name="Denise" last_name="Hayes"
+		email_id="dhayes26@macromedia.com" gender="1" mobile_no="8244029795"
+		vendor="9" customer_address="79" />
+	<Customer id="80" first_name="Marilyn" last_name="Rose"
+		email_id="mrose27@dropbox.com" gender="1" mobile_no="7973935534"
+		vendor="8" customer_address="80" />
+	<Customer id="81" first_name="Robin" last_name="Johnson"
+		email_id="rjohnson28@mayoclinic.com" gender="0" mobile_no="8534059935"
+		vendor="9" customer_address="81" />
+	<Customer id="82" first_name="Martin" last_name="Elliott"
+		email_id="melliott29@telegraph.co.uk" gender="1" mobile_no="9844614554"
+		vendor="10" customer_address="82" />
+	<Customer id="83" first_name="Jack" last_name="Henderson"
+		email_id="jhenderson2a@hubpages.com" gender="0" mobile_no="7549347886"
+		vendor="9" customer_address="83" />
+	<Customer id="84" first_name="Lori" last_name="Peterson"
+		email_id="lpeterson2b@dailymail.co.uk" gender="1" mobile_no="7170238016"
+		vendor="10" customer_address="84" />
+	<Customer id="85" first_name="Alan" last_name="Kelly"
+		email_id="akelly2c@nsw.gov.au" gender="0" mobile_no="8241326985"
+		vendor="10" customer_address="85" />
+	<Customer id="86" first_name="Marilyn" last_name="Romero"
+		email_id="mromero2d@reverbnation.com" gender="0" mobile_no="8270618540"
+		vendor="9" customer_address="86" />
+	<Customer id="87" first_name="Ronald" last_name="Griffin"
+		email_id="rgriffin2e@craigslist.org" gender="0" mobile_no="8453633435"
+		vendor="10" customer_address="87" />
+	<Customer id="88" first_name="Heather" last_name="Kelly"
+		email_id="hkelly2f@usa.gov" gender="0" mobile_no="9050992997" vendor="10"
+		customer_address="88" />
+	<Customer id="89" first_name="Lois" last_name="Owens"
+		email_id="lowens2g@youtube.com" gender="1" mobile_no="9432930659"
+		vendor="10" customer_address="89" />
+	<Customer id="90" first_name="Susan" last_name="Morales"
+		email_id="smorales2h@huffingtonpost.com" gender="0" mobile_no="8930125201"
+		vendor="6" customer_address="90" />
+	<Customer id="91" first_name="Raymond" last_name="Scott"
+		email_id="rscott2i@nytimes.com" gender="1" mobile_no="9398926892"
+		vendor="10" customer_address="91" />
+	<Customer id="92" first_name="Dorothy" last_name="Williams"
+		email_id="dwilliams2j@surveymonkey.com" gender="1" mobile_no="8067312904"
+		vendor="8" customer_address="92" />
+	<Customer id="93" first_name="Paula" last_name="Ford"
+		email_id="pford2k@amazon.com" gender="0" mobile_no="7601738778"
+		vendor="9" customer_address="93" />
+	<Customer id="94" first_name="Raymond" last_name="Adams"
+		email_id="radams2l@vimeo.com" gender="1" mobile_no="7181431873"
+		vendor="10" customer_address="94" />
+	<Customer id="95" first_name="Nicholas" last_name="Young"
+		email_id="nyoung2m@state.gov" gender="0" mobile_no="7802635950"
+		vendor="9" customer_address="95" />
+	<Customer id="96" first_name="Aaron" last_name="Martinez"
+		email_id="amartinez2n@themeforest.net" gender="0" mobile_no="8318381033"
+		vendor="9" customer_address="96" />
+	<Customer id="97" first_name="Kimberly" last_name="Dunn"
+		email_id="kdunn2o@comsenz.com" gender="1" mobile_no="9758915976"
+		vendor="8" customer_address="97" />
+	<Customer id="98" first_name="Arthur" last_name="Moore"
+		email_id="amoore2p@examiner.com" gender="1" mobile_no="9411189243"
+		vendor="9" customer_address="98" />
+	<Customer id="99" first_name="Betty" last_name="Wells"
+		email_id="bwells2q@irs.gov" gender="0" mobile_no="7435005270" vendor="10"
+		customer_address="99" />
+	<Customer id="100" first_name="Joan" last_name="Kim"
+		email_id="jkim2r@printfriendly.com" gender="0" mobile_no="8447514648"
+		vendor="8" customer_address="100" />
+</dataset>

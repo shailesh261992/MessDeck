@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US" data-ng-app="messDeck">
+<head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- <script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> -->
+<script type="text/javascript" src="js/angular.js"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/calenderService.js"></script>
+<script type="text/javascript" src="js/scheduleService.js"></script>
+
+
+</head>
+<body data-ng-controller="calendarController">
+
+	<div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">April 2016</a>
+				</div>
+				<div class="navbar-form navbar-right selectOption">
+					For Month:
+
+					<button class="btn-info btn"  data-ng-click="subscribeServiceForMonth('Tiffin')">Tiffin</button>
+					<button class="btn-warning btn" data-ng-click="subscribeServiceForMonth('Lunch')">Lunch</button>
+					<button class="btn-primary btn" data-ng-click="subscribeServiceForMonth('Dinner')">Dinner</button>
+					<button class="btn btn-default" data-ng-click="test()">Submit</button>
+				</div>
+			</div>
+		</nav>
+
+		<input type="month" name="currentMonth" data-ng-model="currentMonth">
+		<br /> <br />
+
+		<div class="container-fluid">
+			<div class="clearfix">
+				<div class="week clearfix">
+					<div class="day">Sunday</div>
+					<div class="day">Monday</div>
+					<div class="day">Tuesday</div>
+					<div class="day">Wednesday</div>
+					<div class="day">Thursday</div>
+					<div class="day">Friday</div>
+					<div class="day">Saturday</div>
+				</div>
+				<div class="date disabled"
+					data-ng-repeat="date in datesFromPreviousMonthToShow">
+					<span data-ng-bind="date.getDate()"></span></div>
+
+
+				<div>
+
+					<div class="date"
+						data-ng-repeat="schedule in monthSchedule">
+						<span data-ng-bind="schedule.date.getDate()"></span> <label class="labelOuter {{service.serviceType}}"
+							data-ng-repeat="service in schedule.avilableServices"> <input
+							type="checkbox"						
+							data-ng-model="service.subscribed" /> <span
+							class="btn-xs btn btn-block">{{service.serviceType}}</span>
+						</label>
+
+
+					</div>
+
+					<div class="date disabled"
+						data-ng-repeat="date in datesFromNextMonthToShow">
+						{{date.getDate()}}</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

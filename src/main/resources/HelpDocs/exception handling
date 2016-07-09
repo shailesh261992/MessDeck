@@ -1,0 +1,11 @@
+Use below link to handle DB specific exceptions
+
+http://stackoverflow.com/questions/23644915/catch-dataaccessexception-and-rethrow-custom-exception-containing-the-sql-errorc
+
+
+
+
+----------
+
+
+

@@ -1,0 +1,47 @@
+{
+	"id": 1,
+	"name": "Sai Mess",
+	"vendorAddress": 
+	{
+		"street": "Talegaon",
+		"city": "pune",
+		"state": "Maharashtra",
+		"country": "India",
+		"pinCode": "410507",
+		"id": 1
+	},
+
+	"owner": 
+	{
+		"name": 
+		{
+			"firstName": "Sai",
+			"lastName": "Prasad"
+		},
+
+		"mobileNo": "7276248187",
+		"emailID": 
+		{
+			"emailId": "sai@gmail.com"
+		},
+
+		"gender": "FEMALE",
+		"ownerAddress": 
+		{
+			"street": "Talegaon",
+			"city": "pune",
+			"state": "Maharashtra",
+			"country": "India",
+			"pinCode": "410507",
+			"id": 1
+		}
+	},
+
+	"links": 
+	[
+		{
+			"rel": "self",
+			"href": "http://localhost/vendors/1/details"
+		}
+	]
+}
