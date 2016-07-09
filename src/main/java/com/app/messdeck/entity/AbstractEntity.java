@@ -8,7 +8,7 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class AbstractEntity {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	public long id;
 
 	public AbstractEntity() {
