@@ -1,6 +1,8 @@
 package com.app.messdeck.service.impl;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import javax.transaction.Transactional;
 
@@ -14,6 +16,7 @@ import com.app.messdeck.businessException.MessDeckServiceInfoNotExistException;
 import com.app.messdeck.businessException.VendorNotExistException;
 import com.app.messdeck.entity.Customer;
 import com.app.messdeck.model.dto.CustomerDTO;
+import com.app.messdeck.model.dto.MessDeckServiceInfoDTO;
 import com.app.messdeck.modelmapper.DTOConverter;
 import com.app.messdeck.modelmapper.EntityConverter;
 import com.app.messdeck.repository.CustomerRepository;
@@ -93,6 +96,34 @@ public class CustomerServiceImpl implements CustomerService {
 		if (repository.exists(id)) {
 			if (messDeckServiceRepository.exists(serviceId)) {
 				return repository.getOne(id).getSubscribedServices().add(messDeckServiceRepository.getOne(serviceId));
+			} else {
+				throw new MessDeckServiceInfoNotExistException(id);
+			}
+		} else {
+			throw new CustomerNotExistsException(id);
+		}
+
+	}
+
+	@Override
+	public List<MessDeckServiceInfoDTO> getListOfSubscribedServices(Long id) {
+		if (repository.exists(id)) {
+			return repository.getOne(id).getSubscribedServices().stream()
+					.map(x -> EntityConverter.getMessDeckServiceInfoDTO(x)).collect(Collectors.toList());
+		} else {
+			throw new CustomerNotExistsException(id);
+		}
+	}
+
+	@Override
+	public boolean unSubScribeMessDeckService(Long id, Long serviceId) {
+		if (repository.exists(id)) {
+			if (messDeckServiceRepository.exists(serviceId)) {
+
+				boolean remove = repository.getOne(id).getSubscribedServices()
+						.remove(messDeckServiceRepository.getOne(serviceId));
+
+				return remove;
 			} else {
 				throw new MessDeckServiceInfoNotExistException(id);
 			}

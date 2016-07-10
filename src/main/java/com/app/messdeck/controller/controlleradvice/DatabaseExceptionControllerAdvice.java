@@ -47,7 +47,7 @@ public class DatabaseExceptionControllerAdvice {
 	public @ResponseBody ErrorInfo handleVendorNotExistException(HttpServletRequest req,
 			VendorNotExistException exception) {
 
-		logger.debug(exception.getMessage(), exception);
+		// logger.debug(exception.getMessage(), exception);
 		return new ErrorInfo(req.getRequestURL().toString(), exception.getMessage());
 
 	}
@@ -56,7 +56,7 @@ public class DatabaseExceptionControllerAdvice {
 	@ExceptionHandler({ CustomerNotExistsException.class })
 	public @ResponseBody ErrorInfo handleCustomerNotExistsException(HttpServletRequest req,
 			CustomerNotExistsException exception) {
-		logger.debug(exception.getMessage(), exception);
+		// logger.debug(exception.getMessage(), exception);
 		return new ErrorInfo(req.getRequestURL().toString(), exception.getMessage());
 
 	}
@@ -65,7 +65,7 @@ public class DatabaseExceptionControllerAdvice {
 	@ExceptionHandler({ MessDeckServiceInfoNotExistException.class })
 	public @ResponseBody ErrorInfo handleMessDeckServiceInfoNotExistException(HttpServletRequest req,
 			MessDeckServiceInfoNotExistException exception) {
-		logger.debug(exception.getMessage(), exception);
+		// logger.debug(exception.getMessage(), exception);
 		return new ErrorInfo(req.getRequestURL().toString(), exception.getMessage());
 
 	}
@@ -75,7 +75,7 @@ public class DatabaseExceptionControllerAdvice {
 	public @ResponseBody List<ValidationErrrorInfo> handleValidationExceptions(HttpServletRequest req,
 			ValidationException exception) {
 		// exception.printStackTrace();
-		logger.debug(exception.getMessage(), exception);
+		// logger.debug(exception.getMessage(), exception);
 		return exception.getViolationList();
 
 	}

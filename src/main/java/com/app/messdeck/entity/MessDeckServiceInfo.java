@@ -3,14 +3,12 @@ package com.app.messdeck.entity;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
+import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Convert;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
@@ -39,7 +37,7 @@ public class MessDeckServiceInfo extends AbstractEntity {
 	private double cost;
 
 	@ManyToMany(mappedBy = "subscribedServices")
-	private List<Customer> subscribers;
+	private Set<Customer> subscribers;
 
 	private Integer capacityOfMembers;
 
@@ -134,11 +132,11 @@ public class MessDeckServiceInfo extends AbstractEntity {
 		this.cost = cost;
 	}
 
-	public List<Customer> getSubscribers() {
+	public Set<Customer> getSubscribers() {
 		return subscribers;
 	}
 
-	public void setSubscribers(List<Customer> subscribers) {
+	public void setSubscribers(Set<Customer> subscribers) {
 		this.subscribers = subscribers;
 	}
 

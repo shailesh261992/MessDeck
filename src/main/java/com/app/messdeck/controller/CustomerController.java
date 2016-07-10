@@ -3,6 +3,8 @@ package com.app.messdeck.controller;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.app.messdeck.model.dto.CustomerDTO;
+import com.app.messdeck.model.dto.MessDeckServiceInfoDTO;
 import com.app.messdeck.service.CustomerService;
 
 @RestController
@@ -66,10 +69,24 @@ public class CustomerController {
 
 	}
 
-	@RequestMapping(value = "/{id}/subscribe/messdeckservice/{serviceId}", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/{id}/subscribe/{serviceId}", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<?> subscribeService(@PathVariable long id, @PathVariable long serviceId) {
 
 		return new ResponseEntity<Boolean>(service.subScribeMessDeckService(id, serviceId), HttpStatus.OK);
+
+	}
+
+	@RequestMapping(value = "/{id}/unsubscribe/{serviceId}", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<?> unSubscribeService(@PathVariable long id, @PathVariable long serviceId) {
+
+		return new ResponseEntity<Boolean>(service.unSubScribeMessDeckService(id, serviceId), HttpStatus.OK);
+
+	}
+
+	@RequestMapping(value = "/{id}/subscribedServices", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<?> getListOfSubscribedServices(@PathVariable long id) {
+
+		return new ResponseEntity<List<MessDeckServiceInfoDTO>>(service.getListOfSubscribedServices(id), HttpStatus.OK);
 
 	}
 

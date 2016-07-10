@@ -1,12 +1,10 @@
 package com.app.messdeck.entity;
 
 import java.util.List;
+import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
@@ -25,7 +23,7 @@ public class Customer extends Person {
 	@ManyToMany
 	@JoinTable(name = "CustomerService", joinColumns = { @JoinColumn(name = "subscriber") }, inverseJoinColumns = {
 			@JoinColumn(name = "mess_deck_service") })
-	private List<MessDeckServiceInfo> subscribedServices;
+	private Set<MessDeckServiceInfo> subscribedServices;
 
 	public Customer() {
 	}
@@ -38,11 +36,11 @@ public class Customer extends Person {
 		this.vendor = vendor;
 	}
 
-	public List<MessDeckServiceInfo> getSubscribedServices() {
+	public Set<MessDeckServiceInfo> getSubscribedServices() {
 		return subscribedServices;
 	}
 
-	public void setSubscribedServices(List<MessDeckServiceInfo> subscribedServices) {
+	public void setSubscribedServices(Set<MessDeckServiceInfo> subscribedServices) {
 		this.subscribedServices = subscribedServices;
 	}
 

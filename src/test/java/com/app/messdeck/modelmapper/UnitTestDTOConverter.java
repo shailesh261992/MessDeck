@@ -5,7 +5,6 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 import com.app.messdeck.abstracttest.AbstractUnitTest;

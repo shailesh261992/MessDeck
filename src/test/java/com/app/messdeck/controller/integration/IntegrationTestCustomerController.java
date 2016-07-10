@@ -22,11 +22,10 @@ import com.app.messdeck.test.data.CustomerDTODataSample;
 import com.app.messdeck.utils.TestUtils;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 
-@DatabaseSetup(value = { "/dbunit/testdata/CustomersData.xml" })
+@DatabaseSetup(value = { "/dbunit/testdata/integrationData.xml" })
 public class IntegrationTestCustomerController extends AbstractIntegrationTest {
 
 	@Test
-
 	public void testGetCustomerSummary() throws Exception {
 
 		mockMvc.perform(get("/customers/1").accept(contentType)).andDo(print()).andExpect(status().isOk())
@@ -130,8 +129,55 @@ public class IntegrationTestCustomerController extends AbstractIntegrationTest {
 
 	@Test
 	public void testSubscribeService() throws IOException, Exception {
-		mockMvc.perform(post("/customers/1/subscribe/messdeckservice/2").accept(contentType)).andDo(print());
+		mockMvc.perform(post("/customers/1/subscribe/3").accept(contentType)).andDo(print()).andExpect(status().isOk());
 
+	}
+
+	@Test
+	public void testSubscribeService_NonExistingCustomer() throws IOException, Exception {
+		mockMvc.perform(post("/customers/" + Long.MAX_VALUE + "/subscribe/3").accept(contentType)).andDo(print())
+				.andExpect(status().isBadRequest());
+
+	}
+
+	@Test
+	public void testSubscribeService_NonExistingMessDeckService() throws IOException, Exception {
+		mockMvc.perform(post("/customers/1/subscribe/" + Long.MAX_VALUE).accept(contentType)).andDo(print())
+				.andExpect(status().isBadRequest());
+
+	}
+
+	@Test
+	public void testUnSubscribeService() throws IOException, Exception {
+		mockMvc.perform(post("/customers/1/unsubscribe/2").accept(contentType)).andDo(print())
+				.andExpect(status().isOk());
+
+	}
+
+	@Test
+	public void testUnSubscribeService_NonExistingCustomer() throws IOException, Exception {
+		mockMvc.perform(post("/customers/" + Long.MAX_VALUE + "/unsubscribe/3").accept(contentType)).andDo(print())
+				.andExpect(status().isBadRequest());
+
+	}
+
+	@Test
+	public void testUnSubscribeService_NonExistingMessDeckService() throws IOException, Exception {
+		mockMvc.perform(post("/customers/1/unsubscribe/" + Long.MAX_VALUE).accept(contentType)).andDo(print())
+				.andExpect(status().isBadRequest());
+
+	}
+
+	@Test
+	public void testGetListOfSubscribedServices() throws Exception {
+		mockMvc.perform(get("/customers/1/subscribedServices/").accept(contentType)).andDo(print())
+				.andExpect(status().isOk());
+	}
+
+	@Test
+	public void testGetListOfSubscribedServices_NonExistingCustomer() throws Exception {
+		mockMvc.perform(get("/customers/" + Long.MAX_VALUE + "/subscribedServices/").accept(contentType)).andDo(print())
+				.andExpect(status().isBadRequest());
 	}
 
 }
