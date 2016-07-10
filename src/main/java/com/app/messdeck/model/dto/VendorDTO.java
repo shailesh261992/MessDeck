@@ -30,8 +30,8 @@ public class VendorDTO extends AbstractDTO {
 	@AssertValid
 	private EmailIDDTO emailID;
 
-	@JsonDeserialize(using = LocalDateTimeDeserializer.class)
-	@JsonSerialize(using = LocalDateTimeSerializer.class)
+//	@JsonDeserialize(using = LocalDateTimeDeserializer.class)
+//	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime registrationDate;
 
 	private List<CustomerDTO> customers;

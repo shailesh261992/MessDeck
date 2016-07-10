@@ -1,6 +1,5 @@
 package com.app.messdeck.entity;
 
-import java.util.List;
 import java.util.Set;
 
 import javax.persistence.CascadeType;

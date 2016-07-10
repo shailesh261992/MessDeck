@@ -61,7 +61,6 @@ public class VendorServiceImpl implements VendorService {
 	@ValidateWithOval
 	public Long createVendor(VendorDTO vendorDTO) {
 		Vendor vendor = DTOConverter.getVendor(vendorDTO);
-		vendor.setRegistrationDate(LocalDateTime.now());
 		Vendor savedVendor = repository.save(vendor);
 		return savedVendor.getId();
 
